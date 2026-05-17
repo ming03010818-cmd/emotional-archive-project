@@ -13,7 +13,17 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['"Cormorant Garamond"', 'serif'],
+        sans: ['Archivo', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
+      },
       colors: {
+        ink: "hsl(var(--ink))",
+        paper: "hsl(var(--paper))",
+        silver: "hsl(var(--silver))",
+        "silver-soft": "hsl(var(--silver-soft))",
+        "warm-gray": "hsl(var(--warm-gray))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
