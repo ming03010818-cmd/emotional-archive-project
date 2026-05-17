@@ -8,7 +8,7 @@ const Hero = () => (
     <div className="absolute inset-0 vignette">
       <img
         src={heroImg}
-        alt="A woman in soft cinematic light"
+        alt="柔和电影感光线中的女性"
         width={1080}
         height={1920}
         className="h-full w-full object-cover opacity-80 fade-in-slow"
@@ -16,23 +16,23 @@ const Hero = () => (
     </div>
 
     <div className="absolute top-0 inset-x-0 z-10 flex items-center justify-between px-6 md:px-12 pt-28 md:pt-24 font-mono text-[10px] uppercase tracking-editorial text-paper/60">
-      <span>Vol. I</span>
-      <span className="hidden md:block">An Independent Visual Journal</span>
+      <span>第 I 卷</span>
+      <span className="hidden md:block">一本独立的视觉杂志</span>
       <span>N° 001</span>
     </div>
 
     <div className="relative z-10 flex min-h-screen flex-col justify-end px-6 md:px-12 pb-20 md:pb-28">
       <p className="font-mono text-[10px] uppercase tracking-wider-editorial text-paper/70 mb-8 fade-in-slow">
-        — A cinematic archive
+        — 一份电影感的档案
       </p>
       <h1 className="text-display text-paper text-[14vw] md:text-[10vw] lg:text-[9rem] leading-[0.88] fade-in-slow">
-        Emotional
+        情绪
         <br />
-        <span className="italic font-serif silver-text">Visual</span> Archive
+        <span className="italic font-serif silver-text">视觉</span> 档案
       </h1>
       <div className="mt-10 grid gap-6 md:grid-cols-12 fade-in-slow">
         <p className="md:col-span-5 font-serif italic text-xl md:text-2xl text-paper/85 leading-snug">
-          an archive of female emotions, silence, exhaustion and beauty.
+          一份关于女性情绪、沉默、疲惫与美的档案。
         </p>
         <div className="md:col-span-4 md:col-start-9 flex md:justify-end items-end">
           <a
@@ -40,7 +40,7 @@ const Hero = () => (
             className="group inline-flex items-center gap-3 font-mono text-[10px] uppercase tracking-wider-editorial text-paper/80 hover:text-paper"
           >
             <span className="h-px w-12 bg-paper/40 group-hover:w-20 transition-all duration-700" />
-            Enter the archive
+            进入档案
           </a>
         </div>
       </div>
@@ -50,12 +50,12 @@ const Hero = () => (
       <div className="marquee whitespace-nowrap font-mono text-[10px] uppercase tracking-wider-editorial text-paper/50 flex gap-16">
         {Array.from({ length: 2 }).map((_, k) => (
           <div key={k} className="flex gap-16 shrink-0">
-            <span>Low Battery</span><span>·</span>
-            <span>4AM Thoughts</span><span>·</span>
-            <span>Silver Loneliness</span><span>·</span>
-            <span>Quiet Femininity</span><span>·</span>
-            <span>Archived Feelings</span><span>·</span>
-            <span>An archive of female emotions</span><span>·</span>
+            <span>电量不足</span><span>·</span>
+            <span>凌晨四点的思绪</span><span>·</span>
+            <span>银色的孤独</span><span>·</span>
+            <span>安静的女性气质</span><span>·</span>
+            <span>归档的情绪</span><span>·</span>
+            <span>一份关于女性情绪的档案</span><span>·</span>
           </div>
         ))}
       </div>
