@@ -24,8 +24,8 @@ const Index = () => {
       <ArchiveSection
         id="low-battery"
         number="01 / V"
-        title="电量不足"
-        intro="屏幕已经熄灭,身体却仍在发光的那个时刻。"
+        title="LOW BATTERY"
+        intro="when everything feels muted but life keeps going"
         posters={[
           {
             src: lowBattery1,
@@ -43,8 +43,8 @@ const Index = () => {
       <ArchiveSection
         id="4am"
         number="02 / V"
-        title="凌晨四点的思绪"
-        intro="失眠是一座独立的城市。她独自住在那里,并且穿戴得体。"
+        title="4AM THOUGHTS"
+        intro="thoughts that only appear when the world is asleep"
         posters={[
           {
             src: fourAm1,
@@ -62,8 +62,8 @@ const Index = () => {
       <ArchiveSection
         id="silver"
         number="03 / V"
-        title="银色的孤独"
-        intro="孤独,若佩戴得宜,便成了首饰。"
+        title="SILVER LONELINESS"
+        intro="a quiet distance between self and everything else"
         posters={[
           {
             src: silver1,
