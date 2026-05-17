@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 
 const links = [
-  { href: "#low-battery", label: "Low Battery" },
-  { href: "#4am", label: "4AM Thoughts" },
-  { href: "#silver", label: "Silver Loneliness" },
-  { href: "#quiet", label: "Quiet Femininity" },
-  { href: "#archived", label: "Archived Feelings" },
-  { href: "#about", label: "About" },
+  { href: "#low-battery", label: "电量不足" },
+  { href: "#4am", label: "凌晨四点" },
+  { href: "#silver", label: "银色孤独" },
+  { href: "#quiet", label: "安静女性" },
+  { href: "#archived", label: "归档情绪" },
+  { href: "#about", label: "关于" },
 ];
 
 const Nav = () => {
@@ -30,7 +30,7 @@ const Nav = () => {
           href="#top"
           className="font-mono text-[10px] md:text-xs uppercase tracking-wider-editorial"
         >
-          E·V·A — Issue 01
+          E·V·A — 第 01 期
         </a>
         <nav className="hidden lg:flex items-center gap-10 font-mono text-[10px] uppercase tracking-editorial">
           {links.map((l) => (
@@ -41,10 +41,10 @@ const Nav = () => {
         </nav>
         <button
           onClick={() => setOpen((o) => !o)}
-          aria-label="Menu"
+          aria-label="菜单"
           className="lg:hidden font-mono text-[10px] uppercase tracking-editorial"
         >
-          {open ? "Close" : "Index"}
+          {open ? "关闭" : "目录"}
         </button>
         <span className="hidden lg:block font-mono text-[10px] uppercase tracking-editorial text-warm-gray">
           MMXXVI

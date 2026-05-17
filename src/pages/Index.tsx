@@ -24,18 +24,18 @@ const Index = () => {
       <ArchiveSection
         id="low-battery"
         number="01 / V"
-        title="Low Battery"
-        intro="The hour when the body keeps glowing even though the screen has gone dark."
+        title="电量不足"
+        intro="屏幕已经熄灭,身体却仍在发光的那个时刻。"
         posters={[
           {
             src: lowBattery1,
-            caption: "She fell asleep mid-sentence, the phone still pressed to her cheek.",
-            meta: "Plate 01 · 02%",
+            caption: "她在说话说到一半时睡着,手机仍贴着脸颊。",
+            meta: "图版 01 · 02%",
           },
           {
             src: lowBattery2,
-            caption: "A road photographed through a dying lens — somewhere between leaving and staying.",
-            meta: "Plate 02 · 07%",
+            caption: "透过一只即将熄灭的镜头拍下的道路 —— 介于离开与停留之间。",
+            meta: "图版 02 · 07%",
           },
         ]}
       />
@@ -43,18 +43,18 @@ const Index = () => {
       <ArchiveSection
         id="4am"
         number="02 / V"
-        title="4AM Thoughts"
-        intro="Insomnia is its own city. She lives there alone, and she dresses well for it."
+        title="凌晨四点的思绪"
+        intro="失眠是一座独立的城市。她独自住在那里,并且穿戴得体。"
         posters={[
           {
             src: fourAm1,
-            caption: "The city blinked back at her, but it did not answer.",
-            meta: "Plate 03 · 04:07",
+            caption: "城市朝她眨了眨眼,却没有回答。",
+            meta: "图版 03 · 04:07",
           },
           {
             src: fourAm2,
-            caption: "The lamp stayed on like a small promise. Nobody came.",
-            meta: "Plate 04 · 04:43",
+            caption: "那盏灯像一个小小的承诺,亮着。没有人来。",
+            meta: "图版 04 · 04:43",
           },
         ]}
       />
@@ -62,18 +62,18 @@ const Index = () => {
       <ArchiveSection
         id="silver"
         number="03 / V"
-        title="Silver Loneliness"
-        intro="Loneliness, when worn properly, becomes jewellery."
+        title="银色的孤独"
+        intro="孤独,若佩戴得宜,便成了首饰。"
         posters={[
           {
             src: silver1,
-            caption: "Light cut her in half. She decided to keep both versions.",
-            meta: "Plate 05",
+            caption: "光把她切成两半。她决定把两个版本都留下。",
+            meta: "图版 05",
           },
           {
             src: silver2,
-            caption: "The chains were heavy. Heavier than what she was trying to forget.",
-            meta: "Plate 06",
+            caption: "链子很重。比她想要忘记的事更重。",
+            meta: "图版 06",
           },
         ]}
       />
@@ -81,18 +81,18 @@ const Index = () => {
       <ArchiveSection
         id="quiet"
         number="04 / V"
-        title="Quiet Femininity"
-        intro="A softness that does not perform itself. A beauty that refuses to explain."
+        title="安静的女性气质"
+        intro="一种不必表演的柔软。一种拒绝解释的美。"
         posters={[
           {
             src: quiet1,
-            caption: "She bought the flowers for herself, and that was the whole story.",
-            meta: "Plate 07",
+            caption: "她为自己买了花,这就是故事的全部。",
+            meta: "图版 07",
           },
           {
             src: quiet2,
-            caption: "Light through old glass — the closest thing to being understood.",
-            meta: "Plate 08",
+            caption: "光穿过旧玻璃 —— 最接近被理解的瞬间。",
+            meta: "图版 08",
           },
         ]}
       />
@@ -100,18 +100,18 @@ const Index = () => {
       <ArchiveSection
         id="archived"
         number="05 / V"
-        title="Archived Feelings"
-        intro="Some feelings are not deleted. They are filed away, gently, for later."
+        title="归档的情绪"
+        intro="有些感受不会被删除。它们被温柔地存放,留到日后。"
         posters={[
           {
             src: archived1,
-            caption: "She kept the photographs of things she could not say out loud.",
-            meta: "Plate 09",
+            caption: "她保留了那些无法说出口之物的照片。",
+            meta: "图版 09",
           },
           {
             src: archived2,
-            caption: "Every letter was written. None of them were sent.",
-            meta: "Plate 10",
+            caption: "每一封信都写好了,却没有一封寄出。",
+            meta: "图版 10",
           },
         ]}
       />

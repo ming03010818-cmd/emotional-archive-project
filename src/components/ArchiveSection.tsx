@@ -40,7 +40,7 @@ const ArchiveSection = ({ number, title, intro, posters, id }: ArchiveSectionPro
         <div className="reveal flex items-baseline gap-6 border-b border-foreground/15 pb-6 text-xs tracking-wider-editorial uppercase text-warm-gray font-mono">
           <span>{number}</span>
           <span className="flex-1 h-px bg-foreground/10" aria-hidden />
-          <span>Chapter</span>
+          <span>章节</span>
         </div>
         <h2 className="reveal text-display mt-10 text-5xl md:text-7xl lg:text-[8rem]">
           {title}
