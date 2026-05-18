@@ -58,7 +58,7 @@ const Nav = () => {
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
-              className="font-serif italic text-3xl"
+              className="text-2xl font-light tracking-wide"
             >
               {l.label}
             </a>
