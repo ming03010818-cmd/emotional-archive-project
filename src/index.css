@@ -85,27 +85,36 @@
   html { scroll-behavior: smooth; }
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Archivo', system-ui, sans-serif;
-    font-weight: 300;
-    letter-spacing: 0.01em;
+    font-family: 'Inter', 'Noto Sans SC', system-ui, sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.005em;
   }
   ::selection { background: hsl(var(--ink)); color: hsl(var(--paper)); }
 }
 
 @layer utilities {
-  .font-serif { font-family: 'Cormorant Garamond', 'Times New Roman', serif; }
-  .font-sans-editorial { font-family: 'Archivo', sans-serif; }
+  .font-serif { font-family: 'Inter', 'Noto Sans SC', sans-serif; font-weight: 200; }
+  .font-sans-editorial { font-family: 'Inter', 'Noto Sans SC', sans-serif; }
   .font-mono-editorial { font-family: 'JetBrains Mono', monospace; }
 
   .text-display {
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
-    line-height: 0.95;
-    letter-spacing: -0.02em;
+    font-family: 'Inter', 'Noto Sans SC', sans-serif;
+    font-weight: 200;
+    line-height: 1.0;
+    letter-spacing: -0.015em;
   }
 
-  .tracking-editorial { letter-spacing: 0.32em; }
-  .tracking-wider-editorial { letter-spacing: 0.5em; }
+  .tracking-editorial { letter-spacing: 0.28em; }
+  .tracking-wider-editorial { letter-spacing: 0.42em; }
+
+  /* Locked image treatment: monochrome warm, low saturation, soft */
+  .archive-img {
+    filter: grayscale(0.92) contrast(0.94) brightness(0.96) sepia(0.06);
+    transition: filter 1.2s var(--transition-slow), transform 1.6s var(--transition-slow);
+  }
+  .hover-zoom:hover .archive-img {
+    filter: grayscale(0.85) contrast(0.92) brightness(0.9) sepia(0.06);
+  }
 
   .grain::before {
     content: "";
