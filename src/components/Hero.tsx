@@ -11,7 +11,7 @@ const Hero = () => (
         alt="柔和电影感光线中的女性"
         width={1080}
         height={1920}
-        className="h-full w-full object-cover opacity-80 fade-in-slow"
+        className="archive-img h-full w-full object-cover opacity-80 fade-in-slow"
       />
     </div>
 
