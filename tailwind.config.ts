@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ['"Cormorant Garamond"', 'serif'],
-        sans: ['Archivo', 'sans-serif'],
+        serif: ['Inter', 'Noto Sans SC', 'sans-serif'],
+        sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'monospace'],
       },
       colors: {
