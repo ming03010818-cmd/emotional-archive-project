@@ -25,13 +25,13 @@ const Hero = () => (
       <p className="font-mono text-[10px] uppercase tracking-wider-editorial text-paper/70 mb-8 fade-in-slow">
         — 一份电影感的档案
       </p>
-      <h1 className="text-display text-paper text-[14vw] md:text-[10vw] lg:text-[9rem] leading-[0.88] fade-in-slow">
-        情绪
+      <h1 className="text-display text-paper text-[14vw] md:text-[10vw] lg:text-[9rem] leading-[0.92] fade-in-slow font-thin">
+        EMOTIONAL
         <br />
-        <span className="italic font-serif silver-text">视觉</span> 档案
+        <span className="silver-text font-extralight">VISUAL</span> ARCHIVE
       </h1>
-      <div className="mt-10 grid gap-6 md:grid-cols-12 fade-in-slow">
-        <p className="md:col-span-5 font-serif italic text-xl md:text-2xl text-paper/85 leading-snug">
+      <div className="mt-8 grid gap-6 md:grid-cols-12 fade-in-slow">
+        <p className="md:col-span-5 text-base md:text-lg text-paper/80 leading-relaxed font-light">
           一份关于女性情绪、沉默、疲惫与美的档案。
         </p>
         <div className="md:col-span-4 md:col-start-9 flex md:justify-end items-end">
